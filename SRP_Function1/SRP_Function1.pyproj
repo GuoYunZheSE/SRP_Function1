@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Identify.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SRP_Function1.py" />
   </ItemGroup>
   <ItemGroup>
