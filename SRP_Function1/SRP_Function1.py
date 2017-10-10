@@ -13,7 +13,8 @@ for filename in os.listdir():
     for eachline in file.readlines():
         if eachline[:4]=='lbl=':
             Temp_Data=re.split('lbl\=| str\=| end\=| hide\=',eachline)
+            eachline+=1
         if eachline[:5]=='pos =':
-
-        Instance[Instance.index(filename)]
+            Temp_ROI=eachline[6:-3].split(';')
+        Instance[Instance.index(filename)].append(Identify(Temp_Data[1],Temp_Data[2],Temp_Data[3],Temp_Data[4],Temp_ROI))
     #process each txt
