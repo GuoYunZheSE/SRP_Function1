@@ -3,7 +3,7 @@ import numpy
 import re
 from Identify import Identify
 Instance=[]
-path=r'C:\Users\user\Desktop\SRP_Function1\SRP_Function1\DataSet'
+path=r'G:\GITHUB\SRP_Function1\SRP_Function1\DataSet'
 os.chdir(path)
 print('Preloading...')
 Count=1
@@ -25,7 +25,7 @@ for filename in os.listdir():
     File_Number+=1
 
 def Search(Comand):
-    Picture_Path!=Comand
+    Picture_Path=Comand
     Name_Split=Picture_Path.split('_')
     Dataset_Name=Name_Split[0]
     Frame_Number=Name_Split[1]
@@ -40,7 +40,7 @@ def Search(Comand):
                     Tem_Hide=Instance[eachfile_number][eachobject_number].Lable+Instance[eachfile_number][eachobject_number].Hide
                     Hide_Result.append(Tem_Hide)
         eachfile_number+=1
-    print('******************************************************************************************')
+    print('*******************************************************************************')
     print('For Picture ',Comand)
     print('ROI:')
     for i in range(1,len(ROI_Result)):
@@ -48,7 +48,7 @@ def Search(Comand):
     print('Hide:')
     for i in range(1,len(Hide_Result)):
         print(Hide_Result[i])
-    print('******************************************************************************************')
+    print('*******************************************************************************')
     print("Input 'exit' for exiting, you can still input Picture ID:")
 
 while True:
@@ -59,7 +59,7 @@ while True:
         Picture_ID=Command.split('_')[1]
         if Picture_FileName in os.listdir():
             if Picture_ID.isdigit():
-                Search(Comand)
+                Search(Command)
             else:
                 print('Invalid ID!')
         else:
