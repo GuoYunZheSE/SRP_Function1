@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e51b320a-72af-4a76-9fd9-65a6cfae416d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SRP_Function1.py</StartupFile>
+    <StartupFile>load.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,13 +25,136 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SRP_Function1.py" />
+    <Compile Include="load.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataSet\" />
+    <Folder Include="DataSet\set00\" />
+    <Folder Include="DataSet\set01\" />
+    <Folder Include="DataSet\set02\" />
+    <Folder Include="DataSet\set03\" />
+    <Folder Include="DataSet\set04\" />
+    <Folder Include="DataSet\set05\" />
+    <Folder Include="DataSet\set06\" />
+    <Folder Include="DataSet\set07\" />
+    <Folder Include="DataSet\set08\" />
+    <Folder Include="DataSet\set09\" />
+    <Folder Include="DataSet\set10\" />
+    <Folder Include="DataSet\set11\" />
+    <Folder Include="DataSet\set12\" />
+    <Folder Include="DataSet\set13\" />
+    <Folder Include="DataSet\set14\" />
+    <Folder Include="DataSet\set15\" />
+    <Folder Include="DataSet\set16\" />
+    <Folder Include="DataSet\set17\" />
+    <Folder Include="DataSet\set18\" />
+    <Folder Include="DataSet\set19\" />
+    <Folder Include="DataSet\set20\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DataSet\V000.txt" />
-    <Content Include="DataSet\V001.txt" />
+    <Content Include="DataSet\set00\V000.txt" />
+    <Content Include="DataSet\set00\V001.txt" />
+    <Content Include="DataSet\set00\V002.txt" />
+    <Content Include="DataSet\set01\V000.txt" />
+    <Content Include="DataSet\set01\V001.txt" />
+    <Content Include="DataSet\set01\V002.txt" />
+    <Content Include="DataSet\set01\V003.txt" />
+    <Content Include="DataSet\set02\V000.txt" />
+    <Content Include="DataSet\set02\V001.txt" />
+    <Content Include="DataSet\set03\V000.txt" />
+    <Content Include="DataSet\set03\V001.txt" />
+    <Content Include="DataSet\set03\V002.txt" />
+    <Content Include="DataSet\set04\V000.txt" />
+    <Content Include="DataSet\set04\V001.txt" />
+    <Content Include="DataSet\set04\V002.txt" />
+    <Content Include="DataSet\set04\V003.txt" />
+    <Content Include="DataSet\set04\V004.txt" />
+    <Content Include="DataSet\set04\V005.txt" />
+    <Content Include="DataSet\set04\V006.txt" />
+    <Content Include="DataSet\set04\V007.txt" />
+    <Content Include="DataSet\set04\V008.txt" />
+    <Content Include="DataSet\set04\V009.txt" />
+    <Content Include="DataSet\set04\V010.txt" />
+    <Content Include="DataSet\set04\V011.txt" />
+    <Content Include="DataSet\set05\V000.txt" />
+    <Content Include="DataSet\set05\V001.txt" />
+    <Content Include="DataSet\set05\V002.txt" />
+    <Content Include="DataSet\set05\V003.txt" />
+    <Content Include="DataSet\set05\V004.txt" />
+    <Content Include="DataSet\set05\V005.txt" />
+    <Content Include="DataSet\set05\V006.txt" />
+    <Content Include="DataSet\set05\V007.txt" />
+    <Content Include="DataSet\set05\V008.txt" />
+    <Content Include="DataSet\set05\V009.txt" />
+    <Content Include="DataSet\set05\V010.txt" />
+    <Content Include="DataSet\set06\V000.txt" />
+    <Content Include="DataSet\set06\V001.txt" />
+    <Content Include="DataSet\set06\V002.txt" />
+    <Content Include="DataSet\set06\V003.txt" />
+    <Content Include="DataSet\set06\V004.txt" />
+    <Content Include="DataSet\set06\V005.txt" />
+    <Content Include="DataSet\set06\V006.txt" />
+    <Content Include="DataSet\set07\V000.txt" />
+    <Content Include="DataSet\set07\V001.txt" />
+    <Content Include="DataSet\set08\V000.txt" />
+    <Content Include="DataSet\set08\V001.txt" />
+    <Content Include="DataSet\set08\V002.txt" />
+    <Content Include="DataSet\set09\V000.txt" />
+    <Content Include="DataSet\set09\V001.txt" />
+    <Content Include="DataSet\set10\V000.txt" />
+    <Content Include="DataSet\set11\V000.txt" />
+    <Content Include="DataSet\set11\V001.txt" />
+    <Content Include="DataSet\set11\V002.txt" />
+    <Content Include="DataSet\set11\V003.txt" />
+    <Content Include="DataSet\set12\V000.txt" />
+    <Content Include="DataSet\set12\V001.txt" />
+    <Content Include="DataSet\set12\V002.txt" />
+    <Content Include="DataSet\set12\V003.txt" />
+    <Content Include="DataSet\set13\V000.txt" />
+    <Content Include="DataSet\set13\V001.txt" />
+    <Content Include="DataSet\set14\V000-autobackup.txt" />
+    <Content Include="DataSet\set14\V000.txt" />
+    <Content Include="DataSet\set14\V001.txt" />
+    <Content Include="DataSet\set14\V002.txt" />
+    <Content Include="DataSet\set15\V000.txt" />
+    <Content Include="DataSet\set15\V001.txt" />
+    <Content Include="DataSet\set15\V002.txt" />
+    <Content Include="DataSet\set15\V003.txt" />
+    <Content Include="DataSet\set15\V004.txt" />
+    <Content Include="DataSet\set15\V005.txt" />
+    <Content Include="DataSet\set15\V006.txt" />
+    <Content Include="DataSet\set15\V007.txt" />
+    <Content Include="DataSet\set15\V008.txt" />
+    <Content Include="DataSet\set15\V009.txt" />
+    <Content Include="DataSet\set15\V010.txt" />
+    <Content Include="DataSet\set15\V011.txt" />
+    <Content Include="DataSet\set16\V000.txt" />
+    <Content Include="DataSet\set16\V001.txt" />
+    <Content Include="DataSet\set16\V002.txt" />
+    <Content Include="DataSet\set16\V003.txt" />
+    <Content Include="DataSet\set16\V004.txt" />
+    <Content Include="DataSet\set16\V005.txt" />
+    <Content Include="DataSet\set16\V006.txt" />
+    <Content Include="DataSet\set16\V007.txt" />
+    <Content Include="DataSet\set16\V008.txt" />
+    <Content Include="DataSet\set16\V009.txt" />
+    <Content Include="DataSet\set17\V000.txt" />
+    <Content Include="DataSet\set17\V001.txt" />
+    <Content Include="DataSet\set17\V002.txt" />
+    <Content Include="DataSet\set17\V003.txt" />
+    <Content Include="DataSet\set17\V004.txt" />
+    <Content Include="DataSet\set17\V005.txt" />
+    <Content Include="DataSet\set17\V006.txt" />
+    <Content Include="DataSet\set17\V007.txt" />
+    <Content Include="DataSet\set18\V000.txt" />
+    <Content Include="DataSet\set18\V001.txt" />
+    <Content Include="DataSet\set19\V000.txt" />
+    <Content Include="DataSet\set19\V001.txt" />
+    <Content Include="DataSet\set19\V002.txt" />
+    <Content Include="DataSet\set20\V000.txt" />
+    <Content Include="DataSet\set20\V001.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

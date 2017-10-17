@@ -3,7 +3,7 @@ import numpy
 import re
 from Identify import Identify
 Instance=[]
-path=r'G:\GITHUB\SRP_Function1\SRP_Function1\DataSet'
+path=r'G:\SRP_Function1\SRP_Function1\DataSet\set00'
 os.chdir(path)
 print('Preloading...')
 Count=1
