@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e51b320a-72af-4a76-9fd9-65a6cfae416d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>load.py</StartupFile>
+    <StartupFile>run.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Identify.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="run.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SRP_Function1.py" />
