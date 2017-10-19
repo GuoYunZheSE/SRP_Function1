@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e51b320a-72af-4a76-9fd9-65a6cfae416d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>run.py</StartupFile>
+    <StartupFile>function_2\run.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,14 +21,23 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="function_1\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="function_2\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Identify.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="run.py">
+    <Compile Include="function_2\run.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="SRP_Function1.py" />
-    <Compile Include="load.py">
+    <Compile Include="function_2\search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="function_1\srp_function1.py" />
+    <Compile Include="function_2\load.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -55,6 +64,8 @@
     <Folder Include="DataSet\set18\" />
     <Folder Include="DataSet\set19\" />
     <Folder Include="DataSet\set20\" />
+    <Folder Include="function_1\" />
+    <Folder Include="function_2\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DataSet\set00\V000.txt" />
