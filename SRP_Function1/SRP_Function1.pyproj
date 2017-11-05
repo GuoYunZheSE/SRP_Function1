@@ -24,6 +24,7 @@
     <Compile Include="function_1\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="function_2\task22.py" />
     <Compile Include="function_2\__init__.py">
       <SubType>Code</SubType>
     </Compile>
