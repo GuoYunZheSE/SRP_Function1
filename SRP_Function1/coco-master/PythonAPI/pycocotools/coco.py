@@ -77,8 +77,8 @@ class COCO:
             print('loading annotations into memory...')
             tic = time.time()
             dataset = json.load(open(annotation_file, 'r'))
-            assert type(dataset)==dict, 'annotation file format {} not supported'.format(type(dataset))
-            print('Done (t={:0.2f}s)'.format(time.time()- tic))
+            assert type(dataset)==dict,  'annotation file format {} not supported'.format(type(dataset))
+            print('Done (t={:0.2f}s)'.format(time.time()- tic))#Reserve float point to 2
             self.dataset = dataset
             self.createIndex()
 
